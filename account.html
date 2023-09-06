@@ -1,1 +1,88 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Registro</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #2980b9, #ffffff);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px; /* Tamanho ajustado */
+            text-align: center;
+        }
+
+        .container h2 {
+            margin: 0 0 10px; /* Margin ajustado */
+            padding: 15px 0; /* Padding ajustado */
+            background-color: #2980b9; /* Azul mais forte */
+            color: #fff;
+            border-radius: 8px 8px 0 0; /* Borda superior arredondada */
+        }
+
+        .form-group {
+            margin-bottom: 15px; /* Espaçamento ajustado */
+        }
+
+        .form-group label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px; /* Tamanho ajustado */
+            border: 1px solid #2980b9; /* Azul mais forte */
+            border-radius: 0 0 4px 4px; /* Borda inferior arredondada */
+        }
+
+        .btn {
+            background-color: #2980b9; /* Azul mais forte */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Novo Usuário</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmaSenha">Confirmação de Senha:</label>
+                <input type="password" id="confirmaSenha" name="confirmaSenha" required>
+            </div>
+            <button type="submit" class="btn">Confirmar</button>
+        </form>
+    </div>
+</body>
+</html>
