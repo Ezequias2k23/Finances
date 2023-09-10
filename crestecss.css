@@ -1,13 +1,21 @@
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    min-height: 100vh;
+}
+
+img {
+    margin-top: 95px; 
+    margin-bottom: 35px;
+    border: 12px solid white;
 }
 
 .container {
+    width: 25%;
     background-color: #fff;
     padding: 15px;
     border-radius: 10px;

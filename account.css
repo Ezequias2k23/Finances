@@ -13,7 +13,7 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 250px; /* Tamanho ajustado */
+            width: 23%; /* Tamanho ajustado */
             text-align: center;
         }
 
@@ -33,6 +33,7 @@
             display: block;
             text-align: left;
             margin-bottom: 5px;
+            margin-left: 13px;
             color: #333;
         }
 
