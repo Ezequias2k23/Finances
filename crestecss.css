@@ -9,7 +9,7 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -19,8 +19,8 @@ h2 {
     color: #333;
 }
 
-input[type="text"], input[type="password"] {
-    width: 100%;
+input[type="email"], input[type="password"] {
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;

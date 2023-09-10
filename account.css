@@ -2,7 +2,7 @@
             margin: 30;
             padding: 40;
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #2980b9, #ffffff);
+            background: linear-gradient(to bottom, #1c357a, #ffffff);
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -20,7 +20,7 @@
         .container h2 {
             margin: 0 0 10px; /* Margin ajustado */
             padding: 15px 0; /* Padding ajustado */
-            background-color: #2980b9; /* Azul mais forte */
+            background-color: #1c357a; /* Azul mais forte */
             color: #fff;
             border-radius: 8px 8px 0 0; /* Borda superior arredondada */
         }
@@ -37,14 +37,14 @@
         }
 
         .form-group input {
-            width: 100%;
+            width: 80%;
             padding: 8px; /* Tamanho ajustado */
-            border: 1px solid #2980b9; /* Azul mais forte */
+            border: 1px solid #1c357a; /* Azul mais forte */
             border-radius: 0 0 4px 4px; /* Borda inferior arredondada */
         }
 
         .btn {
-            background-color: #2980b9; /* Azul mais forte */
+            background-color: #1c357a; /* Azul mais forte */
             color: #fff;
             padding: 10px 20px;
             border: none;
