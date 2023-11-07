@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINANÇAS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .despesas_body1 {
+            background: #bfcba8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Header styles */
+        .despesash1 {
+            font-size: 65px;
+            color: black;
+        }
+
+        .despesash3 {
+            font-size: 25px;
+            font-style: italic;
+            color: black;
+        }
+
+        /* Container for buttons */
+        .containerdespesas {
+            border-radius: 5px;
+            margin: 20px 0;
+            padding: 15px 20px;
+            text-align: center;
+            width: 40%;
+            background-color: #f9e9c3;
+        }
+
+        /* Button styles */
+        .button, .buttonr {
+            background-color: #496E4E;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px 0; /* Reduzi a margem superior para melhor espaçamento */
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            width: 93%;
+        }
+
+        .button:hover, .buttonr:hover {
+            background-color: #3e8e41;
+            color: black;
+        }
+
+        .button:active, .buttonr:active {
+            background-color: #3e8e41;
+            box-shadow: 0 3px #666;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+<body class="despesas_body1">
+    <h1 class="despesash1">Despesas</h1>
+    <br>
+    <h3 class="despesash3">Defina uma categoria para seus gastos.</h3>
+    <div class="containerdespesas">
+        <a class="button" href="DESPESASFACULDADE.html">Faculdade</a>
+        <a class="button" href="DESPESASALIMENTACAO.html">Alimentação</a>
+        <a class="button" href="DESPESASLAZER.html">Lazer</a>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
