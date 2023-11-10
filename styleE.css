@@ -65,15 +65,11 @@
 .A1 {
     font-size: 17px;
     color: black;
-    -webkit-text-stroke: 0.5px #bfcba8;
-    text-stroke: 0.5px #bfcba8;
     text-decoration: none;
 }
 
 .terms a {
     color: black;
-    -webkit-text-stroke: 0.5px #bfcba8;
-    text-stroke: 0.5px #bfcba8;
     text-decoration: none;
 }
 
@@ -489,4 +485,154 @@ input[type="button"] {
     background-color: green;
     color: white;
     font-weight: bold;
+}
+.despesas_body17 {
+    background: #bfcba8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.despesash17 {
+    font-size: 65px;
+    color: black;
+}
+
+.despesash37 {
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+}
+
+/* Container for buttons */
+.containerdespesas7 {
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    width: 40%;
+    background-color: #f9e9c3;
+}
+
+/* Button styles */
+.button, .buttonr {
+    background-color: #496E4E;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0; /* Reduzi a margem superior para melhor espaçamento */
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 87%;
+}
+
+.button:hover, .buttonr:hover {
+    background-color: #3e8e41;
+    color: black;
+}
+
+.button:active, .buttonr:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+.hisdespesas_body1 {
+    background: #bfcba8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.hisdespesash1 {
+    font-size: 65px;
+    color: black;
+}
+.hisdespesash11 {
+    font-size: 45px;
+    color: black;
+}
+
+
+.hisdespesash3 {
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+}
+
+/* Container for buttons */
+.containerhisdespesas {
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    width: 40%;
+}
+
+/* Button styles */
+.button, .buttonr {
+    background-color: #496E4E;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.button:hover, .buttonr:hover {
+    background-color: #3e8e41;
+    color: black;
+}
+
+.button:active, .buttonr:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.img2, .img3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bodyTable {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.tabelaFaculdade {
+    height: 500px;
+    width: 60%;
+}
+
+.thTabela {
+    height: 75px;
+    width: 75px;
+    border: 1px solid #3e8e41;
+}
+
+.tdTablea {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #3e8e41;
 }
