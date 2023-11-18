@@ -232,6 +232,7 @@ label {
     flex-direction: column;
     align-items: center;
     justify-content: center; /* Centralizar horizontalmente */
+    width: 94%;
 }
 
 .menu-button4 {
@@ -240,15 +241,17 @@ label {
     border: none;
     border-radius: 5px;
     margin: 10px 0;
-    padding: 15px 40px;
+    padding: 15px 45px;
     text-align: center;
     text-decoration: none;
     display: block;
+    width: 350px; /* ou qualquer valor desejado para a largura dos botões */
 }
 
 .menu-button4:hover {
     background-color: #345038;
 }
+
 /* Defina o estilo para o corpo da página */
 .bodyrelatorio {
     background: #bfcba8;
