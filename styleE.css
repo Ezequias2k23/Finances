@@ -265,19 +265,16 @@ label {
 
 /* Estilos para o cabeçalho */
 .relatorioh1 {
+    text-align: center;
     font-size: 36px;
-    color: black;
-}
-
-.relatorioh3 {
-    font-size: 18px;
-    font-style: italic;
     color: black;
 }
 
 /* Estilos para a área de texto do dia */
 .day {
     margin-top: 20px;
+    margin-bottom: 20px;
+    width: 28%;
 }
 
 textarea {
@@ -289,17 +286,23 @@ textarea {
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
+.relatorioh3 {
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    margin: 0; /* Removendo margens */
+}
 
-/* Estilos para o container dos botões */
 .containerrelatorio {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 0;
+    padding-left:10px ;
+    padding-right:10px ;
+    padding-top: 0px;
     text-align: center;
     background-color: #f9e9c3;
     border-radius: 5px;
 }
 
-/* Estilos para os botões */
 .buttonr {
     background-color: #496E4E;
     color: black;
@@ -315,6 +318,7 @@ textarea {
     background-color: #345038;
 }
 
+/* Estilo para o corpo da página */
 .body5 {
     overflow: hidden;
     background: #bfcba8;
@@ -323,49 +327,47 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     min-height: 100vh;
+    padding-top: 20px; /* Espaçamento do topo */
 }
 
-.ajuda-header {
-    margin: 0px 0;
-}
-
+/* Estilo para o título h1 */
 .hajuda1 {
-    font-size: 36px;
+    font-size: 45px;
     color: black;
+    margin-top: 0; /* Removendo margem superior padrão */
 }
 
+/* Estilo para a classe ajuda-content */
 .ajuda-content {
-    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
-    margin: 0;
+    text-align: center;
+    margin-top: 10%; /* Espaçamento entre h1 e ajuda-content */
 }
 
+/* Estilo para os elementos h2 */
 .h25 {
+    margin: 10px 0; /* Espaçamento entre os elementos h2 */
     font-size: 20px;
     color: black;
 }
 
+/* Estilo para o botão */
 .green-button5 {
     background-color: #496E4E;
     border: 2px solid black;
     color: black;
     padding: 15px 30px;
-    margin-top: 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 20px;
     border-radius: 4px;
-}
-
-.green-button5:hover {
-    background-color: #45a046;
+    margin-top: 19%; /* Espaçamento do botão em relação aos elementos anteriores */
 }
 
 .h1config{
@@ -374,8 +376,7 @@ textarea {
     color: black;
 }
 #languageButton,
-#notificationButton,
-#syncButton {
+#notificationButton {
     font-style: oblique;
     font-size: 20px;
     width: 100%;
@@ -421,7 +422,9 @@ textarea {
     background: #bfcba8;
     min-height: 100vh;
 }
-.body-container {
+/* Estilos para a página de Contas e Dados Pessoais */
+.body-container,
+.bodycontas22 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -430,17 +433,9 @@ textarea {
     margin: 0;
     background: #bfcba8;
 }
-.bodycontas22 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; /* Centralizar verticalmente */
-    height: 100vh;
-    margin: 0;
-    background: #bfcba8;
-    min-height: 100vh;
-}
-.title {
+
+.title,
+.centered {
     text-align: center;
 }
 
@@ -450,17 +445,20 @@ textarea {
     margin-bottom: 20px;
 }
 
+.column {
+    display: flex;
+    flex-direction: column; /* Alteração: agora são colunas */
+    margin: 0 10px; /* Espaçamento entre as colunas */
+}
+
 .icon-item {
     text-align: center;
-    margin: 30px;
+    margin: 10px;
 }
 
 .icon-item img {
     width: 100px;
     height: 100px;
-}
-.centered {
-    text-align: center;
 }
 
 .form-container {
@@ -472,23 +470,22 @@ textarea {
 
 input[type="text"],
 input[type="date"],
-input[type="password"] {
+input[type="password"],
+input[type="button"] {
     width: 300px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #ddd;
     margin-bottom: 20px;
 }
 
 input[type="button"] {
     width: 200px;
-    padding: 10px;
-    border-radius: 10px;
     border: 2px solid black;
     background-color: green;
     color: white;
     font-weight: bold;
 }
+
 .despesas_body17 {
     background: #bfcba8;
     font-family: Arial, sans-serif;
@@ -517,7 +514,7 @@ input[type="button"] {
     margin: 20px 0;
     padding: 15px 20px;
     text-align: center;
-    width: 40%;
+    width: 50%;
     background-color: #f9e9c3;
 }
 
@@ -534,7 +531,7 @@ input[type="button"] {
     text-align: center;
     text-decoration: none;
     display: block;
-    width: 87%;
+    width: 100px;
 }
 
 .button:hover, .buttonr:hover {
